@@ -1,0 +1,82 @@
+.Business {
+  margin: 100px 0;
+}
+.left2 h5 {
+  text-align: left;
+  padding-top: 50px;
+  font-weight: bold;
+}
+.left2 p {
+  text-align: left;
+  line-height: 1.5rem;
+  padding-top: 50px;
+  font-weight: bold;
+
+  color: #7f95af;
+}
+.right2 h5 {
+  text-align: left;
+  padding-top: 50px;
+  font-weight: bold;
+}
+.right2 p {
+  text-align: left;
+  line-height: 1.5rem;
+  padding-top: 50px;
+  font-weight: bold;
+
+  color: #7f95af;
+}
+.right333 {
+  gap: 50px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.left333 {
+  gap: 50px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.img333 {
+  width: 200px;
+}
+.g33 {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media (max-width: 700px) {
+  div {
+    .img333 {
+      width: 450px;
+      border-radius: 30px;
+      height: 400px;
+    }
+    .left2 h5 {
+      text-align: left;
+      margin-top: -80px;
+      font-weight: bold;
+    }
+    .left2 p {
+      text-align: left;
+      line-height: 1.5rem;
+      /* padding-top: 50px; */
+      font-weight: bold;
+      /* margin-top: -60px; */
+      /* margin-left: -80px; */
+      display: ruby !important;
+      color: #7f95af;
+    }
+    .right2 p {
+      display: ruby;
+    }
+    .right2 h5 {
+      text-align: left;
+      margin-top: -80px;
+      font-weight: bold;
+    }
+    .left2 {
+      margin-left: -20px;
+      padding: 0;
+    }
+  }
+}

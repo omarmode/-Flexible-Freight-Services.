@@ -1,0 +1,65 @@
+.img-car {
+  background-color: #8ca0b7 !important;
+  display: inline-flex;
+  width: 80% !important;
+  height: 100%;
+  margin-left: -20px;
+  margin-top: -50px;
+  padding-top: -30px;
+}
+.car {
+  flex-wrap: wrap;
+}
+
+.h-car {
+  color: #002c5f;
+  text-align: left;
+  margin: 20px 10px;
+  font-size: 60px;
+  padding-top: -50px !important;
+}
+.p-car {
+  padding: 20px 0;
+  text-align: left;
+  color: #8ca0b7;
+}
+.h1-car {
+  color: #002c5f;
+  font-weight: bold;
+}
+.p1-car {
+  color: #8ca0b7;
+  text-align: left;
+}
+
+@media (max-width: 900px) {
+  div {
+    .div-img-car {
+      display: none !important;
+    }
+    .h1-car-div h1,
+    p,
+    .cunt {
+      text-align: center !important;
+      margin-left: 90px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  div {
+    .div-img-car {
+      display: none !important;
+    }
+    .h1-car-div h1,
+    p,
+    .cunt {
+      text-align: center !important;
+      margin-left: 90px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }
+}

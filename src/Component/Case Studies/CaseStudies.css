@@ -1,0 +1,14 @@
+.CCard {
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 20px;
+  padding-top: 40px;
+}
+.CardCase {
+  transition: 1s;
+}
+.CardCase:hover {
+  transform: translateY(-30px);
+  cursor: pointer;
+  box-shadow: 1px 1px 15px #ffd84f;
+}

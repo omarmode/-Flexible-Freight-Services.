@@ -1,0 +1,21 @@
+.ppo {
+  border-radius: 20px;
+  transition: 1s;
+  scale: 0.95;
+}
+.oop {
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.ppo:hover {
+  cursor: pointer;
+  box-shadow: 2px 2px 20px rgb(255, 216, 79);
+  rotate: 2deg;
+}
+@media (max-width: 700px) {
+  div {
+    .ppo {
+      width: 100px !important;
+    }
+  }
+}

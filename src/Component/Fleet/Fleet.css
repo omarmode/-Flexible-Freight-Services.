@@ -1,0 +1,101 @@
+.p-Fleet {
+  background-color: #ffd84f;
+  border-radius: 20px solid white !important;
+  border-radius: 20% !important;
+  display: inline !important;
+  color: #002c5f !important;
+  font-weight: bold;
+  padding: 10px;
+}
+.section-Fleet {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 10px !important;
+}
+.h-Fleet {
+  color: #003973 !important;
+  /* text-align: start; */
+}
+.img-Fleet {
+  width: 100px;
+  height: 30px;
+  text-align: right !important;
+  margin-right: 220px;
+  margin-bottom: 120px;
+  font-size: 80px;
+  padding-left: -60px !important;
+  color: #002c5f;
+  transition: 0.5s;
+}
+.img-Fleet1 {
+  width: 100px;
+  height: 30px;
+  text-align: right !important;
+  margin-right: 220px;
+  margin-bottom: 120px;
+  font-size: 80px;
+  padding-left: -60px !important;
+  color: #002c5f;
+  transition: 0.5s;
+}
+.img-Fleet2 {
+  width: 100px;
+  height: 30px;
+  text-align: right !important;
+  margin-right: 220px;
+  margin-bottom: 120px;
+  font-size: 80px;
+  padding-left: -60px !important;
+  color: #002c5f;
+  transition: 0.5s;
+}
+.svg {
+  margin-right: 220px;
+  transition: 0.5s;
+
+  margin-bottom: 30px;
+}
+.svg1 {
+  margin-right: 220px;
+  transition: 0.5s;
+  margin-bottom: 30px;
+}
+.card-Fleet {
+  /* position: relative; */
+  background-color: #e8ecf1;
+  padding: 30px !important;
+  margin-left: 15px;
+  border-radius: 20px;
+  margin-top: 25px;
+  transition: 0.5s;
+  scale: 0.9;
+}
+.card-Fleet:hover {
+  background-color: #ffd84f;
+  scale: 1;
+  cursor: pointer;
+  box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.342);
+}
+.card-Fleet:hover .svg {
+  transform: translatey(-20px);
+}
+.card-Fleet:hover .svg1 {
+  transform: translatex(200px);
+}
+.card-Fleet:hover .img-Fleet1 {
+  scale: 1.1;
+  transform: translate(100px, -20px);
+}
+.card-Fleet:hover .img-Fleet2 {
+  scale: 1.1;
+}
+.card-Fleet:hover .img-Fleet {
+  rotate: -20deg;
+  scale: 1.1;
+}
+.hFleet-card {
+  /* position: absolute; */
+  margin-left: 30px;
+  color: #002c5f;
+  font-weight: bold;
+}

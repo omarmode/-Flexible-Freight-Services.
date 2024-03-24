@@ -1,0 +1,133 @@
+.left-hh {
+  color: #003973;
+  text-align: left;
+  font-size: 50px;
+  font-weight: bold;
+}
+.Inspiration {
+  width: 100%;
+  height: 100%;
+  background-color: #f4f4f400 !important;
+  margin: 100px 0;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.left-Inspiration {
+  padding: 100px 0px;
+}
+.right-Inspiration {
+  padding: 100px 0;
+}
+.pp-left {
+  text-align: left;
+  font-weight: bold;
+  color: #8c9fb5;
+  padding: 10px 0;
+  /* display: inline; */
+}
+.btto2 {
+  background-color: #f4f4f4 !important;
+  /* display: block; */
+  color: #003973 !important;
+  font-weight: bold !important;
+  font-size: 20px !important;
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+  padding-right: 40px !important;
+  text-align: left !important;
+  width: 500px !important;
+  margin-right: 350px !important;
+  transition: 1s !important;
+  border-radius: 3px !important;
+  scale: 0.8 !important;
+}
+.btto2:hover {
+  background-color: #003973 !important;
+  color: #ffd84f !important;
+  scale: 0.9 !important;
+  border-radius: 10px !important;
+}
+.btyp2 {
+  text-align: left;
+  color: #8c9fb5;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  /* display: inline; */
+}
+.active2 {
+  background-color: #003973 !important;
+  color: #ffd84f !important;
+  /* scale: 1 !important; */
+  border-radius: 10px !important;
+  font-weight: bold !important;
+  font-size: 25px !important;
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+  padding-right: 40px !important;
+  text-align: left !important;
+  width: 500px !important;
+  margin-right: 350px !important;
+  transition: 1s !important;
+  border-radius: 3px !important;
+  scale: 0.9 !important;
+}
+@media (max-width: 700px) {
+  div {
+    .btyp2 {
+      text-align: left !important;
+      font-size: 12px;
+      display: inline-block;
+      margin-left: 100px !important;
+      width: 100%;
+    }
+    .pp-left {
+      text-align: center !important;
+      font-size: 12px !important;
+      font-weight: bold !important;
+      /* width: 50% !important; */
+      display: inline-block;
+      /* width: 200px; */
+      padding-left: 30px;
+      margin: 0 !important;
+    }
+    .btto {
+      text-align: center;
+      width: 200px;
+      padding: 0 !important;
+    }
+    .btto2 {
+      margin: 0 !important;
+      padding-right: -50px !important;
+      scale: 0.6 !important;
+    }
+    .btto2:hover {
+      scale: 0.7 !important;
+    }
+    .active2 {
+      display: inline-block !important;
+      margin: 0 !important;
+      scale: 0.6 !important;
+    }
+
+    .Inspiration {
+      flex-wrap: wrap;
+    }
+    .right-Inspiration {
+      padding: 0;
+      width: 100px;
+      display: none !important;
+    }
+    .left-Inspiration {
+      text-align: center;
+      justify-content: center !important;
+      padding: 0;
+      width: 119%;
+    }
+    .left-hh {
+      text-align: center;
+      font-size: 30px;
+    }
+  }
+}

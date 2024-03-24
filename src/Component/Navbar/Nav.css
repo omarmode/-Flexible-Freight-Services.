@@ -1,0 +1,80 @@
+.logo {
+  border-right: 1px solid gray;
+  padding-right: 20px;
+  color: azure;
+}
+nav {
+  position: fixed;
+  width: 95%;
+  opacity: 0.8;
+  padding: 0 10px;
+}
+nav ul.flex {
+  justify-content: space-between;
+  gap: 20px;
+}
+header nav {
+  background-image: linear-gradient(90deg, #1c3245, #56603d);
+  margin: 10px 15px;
+  margin-top: 50px;
+  padding: 10px;
+  color: #6c7c8e !important;
+  border-radius: 20px;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+header nav ul li.mod:hover {
+  color: aliceblue;
+  scale: 1.2;
+}
+header nav ul li {
+  padding-top: 10px;
+  font-weight: 500;
+}
+header nav ul {
+  position: relative;
+}
+.footer {
+  border-left: 1px solid gray;
+  padding-left: 20px;
+  color: aliceblue;
+}
+.footer-item {
+  font-size: small;
+}
+.active {
+  color: white !important;
+  line-height: 10px;
+}
+@media (max-width: 700px) {
+  div {
+    nav {
+      width: 95%;
+    }
+
+    .footer {
+      display: none;
+    }
+  }
+}
+@media (max-width: 1000px) {
+  div {
+    header nav {
+      margin: 10px 10px;
+      height: 90px;
+    }
+    .footer {
+      border: none;
+      text-align: center;
+      padding-top: -50px;
+    }
+    .footer-item {
+      display: none;
+    }
+  }
+}
+@media (min-width: 700px) {
+  .menu {
+    display: none !important;
+  }
+}

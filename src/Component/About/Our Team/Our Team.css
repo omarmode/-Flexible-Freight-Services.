@@ -1,0 +1,14 @@
+.our2 {
+  gap: 10px;
+  flex-wrap: wrap;
+}
+@media (max-width: 700px) {
+  div {
+    .Ourteam h3 {
+      margin-left: 45px;
+    }
+    .ourppp {
+      margin: 0;
+    }
+  }
+}
