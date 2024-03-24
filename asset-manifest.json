@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/-Flexible-Freight-Services./static/css/main.f635e35f.css",
+    "main.js": "/-Flexible-Freight-Services./static/js/main.42d550c2.js",
+    "static/media/portfolio-1-jpg.webp": "/-Flexible-Freight-Services./static/media/portfolio-1-jpg.3680bb08337b79dbe398.webp",
+    "index.html": "/-Flexible-Freight-Services./index.html",
+    "main.f635e35f.css.map": "/-Flexible-Freight-Services./static/css/main.f635e35f.css.map",
+    "main.42d550c2.js.map": "/-Flexible-Freight-Services./static/js/main.42d550c2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f635e35f.css",
+    "static/js/main.42d550c2.js"
+  ]
+}
